@@ -26,6 +26,9 @@ find_package(sensor_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OutputPathsMsg.msg"
   "msg/ExtendedLaserScan.msg"
+  "msg/MonitoringCase.msg"
+  "msg/Field.msg"
+  "srv/FieldData.srv"
   DEPENDENCIES sensor_msgs
  )
 

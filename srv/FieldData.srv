@@ -1,0 +1,6 @@
+
+---
+
+sick_safetyscanners2_interfaces/Field[] fields
+string device_name
+sick_safetyscanners2_interfaces/MonitoringCase[] monitoring_cases
