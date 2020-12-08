@@ -24,10 +24,21 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/OutputPathsMsg.msg"
+  "msg/ApplicationData.msg"
+  "msg/ApplicationInputs.msg"
+  "msg/ApplicationOutputs.msg"
+  "msg/DataHeader.msg"
+  "msg/DerivedValues.msg"
   "msg/ExtendedLaserScan.msg"
-  "msg/MonitoringCase.msg"
   "msg/Field.msg"
+  "msg/GeneralSystemState.msg"
+  "msg/IntrusionData.msg"
+  "msg/IntrusionDatum.msg"
+  "msg/MeasurementData.msg"
+  "msg/MonitoringCase.msg"
+  "msg/OutputPaths.msg"
+  "msg/RawMicroScanData.msg"
+  "msg/ScanPoint.msg"
   "srv/FieldData.srv"
   DEPENDENCIES sensor_msgs
  )
