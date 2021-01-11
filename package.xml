@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>sick_safetyscanners2_interfaces</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
 
   <description>Interfaces for the sick_safetyscanners ros2 driver</description>
   <maintainer email="puck@fzi.de">Lennart Puck</maintainer>
