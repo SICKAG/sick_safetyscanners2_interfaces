@@ -3,9 +3,12 @@
 <package format="3">
   <name>sick_safetyscanners2_interfaces</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="puck@fzi.de">lennart</maintainer>
-  <license>TODO: License declaration</license>
+
+  <description>Interfaces for the sick_safetyscanners ros2 driver</description>
+  <maintainer email="puck@fzi.de">Lennart Puck</maintainer>
+  <author>Lennart Puck</author>
+
+  <license>ALv2</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
