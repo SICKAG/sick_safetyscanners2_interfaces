@@ -52,4 +52,9 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+install(
+  FILES sick_safetyscannersmessage_bridge_mapping_rule.yaml
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()
