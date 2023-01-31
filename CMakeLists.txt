@@ -38,6 +38,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ScanPoint.msg"
   "srv/ConfigMetadata.srv"
   "srv/FieldData.srv"
+  "srv/ApplicationName.srv"
+  "srv/TypeCode.srv"
   DEPENDENCIES sensor_msgs
  )
 
