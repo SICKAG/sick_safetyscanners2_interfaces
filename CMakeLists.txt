@@ -37,6 +37,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RawMicroScanData.msg"
   "msg/ScanPoint.msg"
   "srv/FieldData.srv"
+  "srv/StatusOverview.srv"
   DEPENDENCIES sensor_msgs
  )
 
