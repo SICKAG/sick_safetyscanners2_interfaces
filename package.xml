@@ -5,9 +5,11 @@
   <version>1.0.0</version>
 
   <description>Interfaces for the sick_safetyscanners ros2 driver</description>
-  <maintainer email="puck@fzi.de">Lennart Puck</maintainer>
+  <maintainer email="eichmann@fzi.de">Christian Eichmann</maintainer>
 
   <license>ALv2</license>
+
+  <author email="puck@fzi.de">Lennart Puck</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
