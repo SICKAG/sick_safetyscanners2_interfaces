@@ -6,6 +6,7 @@
 
   <description>Interfaces for the sick_safetyscanners ros2 driver</description>
   <maintainer email="eichmann@fzi.de">Christian Eichmann</maintainer>
+  <maintainer email="trapp@fzi.de">Thomas Trapp</maintainer>
 
   <license>ALv2</license>
 
